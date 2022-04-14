@@ -17,7 +17,7 @@ const DeleteAvatar = require('../controllers/users/DeleteAvatar');
 const GetAvatar = require('../controllers/users/GetAvatar');
 
 // utils
-const errorMessage = require('../../utils/errors/message');
+const errorMessage = require('../utils/errors/message');
 
 const router = express.Router();
 
